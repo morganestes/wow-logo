@@ -7,6 +7,62 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <link rel="stylesheet" type="text/css" href="http://dl.dropbox.com/u/1268527/wow/matchbook.css">
+<link href='http://fonts.googleapis.com/css?family=La+Belle+Aurore&v2' rel='stylesheet' type='text/css'>
+<style type="text/css">
+.logo-outer {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 96px 96px 96px 24px; /* 48% 48% 48% 12% */
+    -moz-border-radius: 96px 96px 96px 24px;
+  -webkit-border-radius: 96px 96px 96px 24px;
+}
+.logo-inner {
+    height: 170px;
+    width: 170px;
+    background-color: #09F;
+    border-radius: 153px; /* 90% */
+    -moz-border-radius: 153px;
+    -webkit-border-radius: 153px;
+    border: 4px rgb(0, 0, 200) solid;
+    position: relative;
+    top: 11px;
+    left: 11px;
+}
+   
+.logo-inner:after {
+    content:"";
+    width: 168px;
+    height: 168px;
+    position:absolute;
+    top:0;
+    left:0;
+    border: 1px solid #eee;
+    border-radius: 151px; /* 90% */
+    -moz-border-radius: 151px;
+    -webkit-border-radius: 151px;
+
+}
+
+.logo-inner p {
+    color: #fff;
+    text-align: center;
+    position: relative;
+	margin:0;
+    line-height: 168px;
+    font-size:96px;
+    font-family: 'MatchbookMatchbook';
+    letter-spacing: -2px;
+    
+}
+.logo h1 {
+    text-align:left;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 48px;
+    font-weight:normal;
+}
+</style>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -34,8 +90,19 @@
           <h1>
 <a name="wow-logo" class="anchor" href="#wow-logo"><span class="octicon octicon-link"></span></a>wow-logo</h1>
 
-<p>Recreating the MRCC WOW logo in CSS</p>
-        </section>
+<div class="logo">
+<div class="logo-outer">
+    <div class="logo-inner">
+        <p>WOW</p>
+    </div>
+</div>
+<h1>Wonder of Worship</h1>
+</div>
+<article id="description">
+<p>The original logo is not my idea - it was created for the Memorial Road Church of Christ <a href="http://www.facebook.com/MRCCWOW">Wonder of Worship (WOW) class</a>. As soon as I saw it, I thought "I wonder if I can re-create that in CSS?" It's not a pixel-perfect re-creation, but I think it's a decent knock-off nonetheless.</p>
+<p>This version is the one they&rsquo;re using in class. The Web version is slightly different.</p>
+</article>
+</section>
 
         <footer>
           Wow-logo is maintained by <a href="https://github.com/morganestes">morganestes</a><br>
